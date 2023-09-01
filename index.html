@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | answer corp.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
+    <script type="module" crossorigin src="/hex-2023-w5/assets/main-3b17b2e2.js"></script>
+    <link rel="stylesheet" href="/hex-2023-w5/assets/main-66cd9d9c.css">
+  </head>
+  <body>
+    <!-- nav block == left -->
+    <nav class="nav flex-column bg-light pt-3 pb-3">
+      <div class="type-links fw-bold">
+        <!-- brand pic-->
+        <a href="#" class="navbar-brand nav-link"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg" alt="logo"></a>
+        <!-- other links -->
+        <a href="#" class="nav-link link-dark d-flex"><span class="material-icons me-3">assessment</span>Dashboard</a>
+        <a href="#" class="nav-link link-dark d-flex"><span class="material-icons me-3">question_answer</span>Question</a>
+        <a href="#" class="nav-link link-dark d-flex"><span class="material-icons me-3">assignment</span>Assignment</a>
+        <a href="#" class="nav-link link-dark d-flex"><span class="material-icons me-3">video_library</span>Course</a>
+        <a href="#" class="nav-link link-success d-flex active"><span class="material-icons me-3">supervisor_account</span>Admin</a>
+        <a href="#" class="nav-link link-dark d-flex"><span class="material-icons me-3">settings</span>Settings</a>
+      </div>
+      <!-- bottom user info -->
+      <div class="userFile mt-auto d-flex align-items-center pl-32 pb-3">
+        <div class="flex-shrink-0">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg" alt="user-photo" class="rounded-circle">
+        </div>
+        <div class="ps-3">
+          <p class="fw-bold mb-0">Andy Chen</p>
+          <p class="text-secondary mb-0 secondary-text">andy0401@mail.com</p>
+        </div>
+      </div>
+    </nav>
+    <!-- main content == right -->
+    <div class="main">
+      <div class="container-fluid px-32">
+        <!-- top navbar -->
+        <nav class="navbar navbar-expand-lg py-32 fw-bold">
+          <p class="fs-4 mb-0 me-5">Admin</p>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-flex link-dark" href="#"><span class="material-icons me-2 link-success">add</span>Add New Admin</a>
+              </li>
+            </ul>
+          </div>
+          <a class="link-dark" href="#"><span class="material-icons me-4">search</span></a>
+          <a class="link-dark" href="#"><span class="material-icons">notifications_active</span></a>
+        </nav>
+        <!-- main table -->
+        <table class="table table-hover mb-5">
+          <thead>
+            <tr>
+              <th scope="col d-flex">ID <a href="#"><span class="material-icons link-success">arrow_downward</span></a></th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Verified</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">#1</th>
+              <td>Emir Wicks</td>
+              <td>emir.wicks@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#2</th>
+              <td>Zaina Goldsmith</td>
+              <td>zaina.goldsmith@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#3</th>
+              <td>Mahima Lopez</td>
+              <td>mahima.lopez@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#4</th>
+              <td>Pharrell Murray</td>
+              <td>pharrell.murray@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#5</th>
+              <td>Annika Mcbride</td>
+              <td>annika.mcbride@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#6</th>
+              <td>Fatimah Clark</td>
+              <td>fatimah.clark@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#7</th>
+              <td>Klaudia Rhodes</td>
+              <td>klaudia.rhodes@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#8</th>
+              <td>Tillie Lucero</td>
+              <td>tillie.lucero@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#9</th>
+              <td>Sabrina Stephenson</td>
+              <td>sabrina.stephenson@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+            <tr>
+              <th scope="row">#10</th>
+              <td>Annie Smith</td>
+              <td>annie.smith@mail.com</td>
+              <td>Yes</td>
+              <td><span class="material-icons">visibility</span><span class="material-icons">edit</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- 分頁按鈕 -->
+        <div class="navbar-page d-flex justify-content-end">
+          <nav aria-label="Page navigation example border border-success">
+            <ul class="pagination">
+              <li class="page-item border">
+                <a class="page-link border-success border-2 link-success" href="#" aria-label="Previous">
+                  <span class="material-icons">chevron_left</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link border border-success border-2 link-dark" href="#">1</a></li>
+              <li class="page-item"><a class="page-link border border-success border-2 link-dark" href="#">2</a></li>
+              <li class="page-item"><a class="page-link border border-success border-2 link-dark" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link border border-success border-2 link-success" href="#" aria-label="Next">
+                  <span class="material-icons">chevron_right</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
